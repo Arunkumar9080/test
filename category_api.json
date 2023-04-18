@@ -1,0 +1,1106 @@
+{
+	"info": {
+		"_postman_id": "751b4ba0-829e-4dfa-9826-b21a1e56789f",
+		"name": "MVP Common Category",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "MVP Common Category Api's",
+			"item": [
+				{
+					"name": "content_type",
+					"item": [
+						{
+							"name": "content type get all",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/content_type/list",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"content_type",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "content type get single list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/content_type/listone/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"content_type",
+										"listone",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "content type delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/content_type/delete/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"content_type",
+										"delete",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "content type update data",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/content_type/update/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"content_type",
+										"update",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "content type add Copy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/content_type/add",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"content_type",
+										"add"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "industry_type",
+					"item": [
+						{
+							"name": "industry type get all",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/industry_type/list",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"industry_type",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "industry type get single list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/industry_type/listone/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"industry_type",
+										"listone",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "industry type delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/industry_type/delete/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"industry_type",
+										"delete",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "industry type update data",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/industry_type/update/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"industry_type",
+										"update",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "industry type add",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"industry_abreviation\": \"BF\",\r\n    \"industry_name\":\"BFSI\",\r\n    \"created_by\":0,\r\n    \"updated_by\": 0,\r\n    \"status\":1 \r\n    }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/industry_type/add",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"industry_type",
+										"add"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "words_type",
+					"item": [
+						{
+							"name": "words_type get all",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/words_type/list",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"words_type",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "words_type get single list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/words_type/listone/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"words_type",
+										"listone",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "words_type delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/words_type/delete/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"words_type",
+										"delete",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "words_type update data",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/industry_type/update/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"industry_type",
+										"update",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "words_type add",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"words_count\":500,\r\n    \"created_by\":0,\r\n    \"updated_by\":0,\r\n    \"status\":1\r\n    }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/words_type/add",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"words_type",
+										"add"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "image_type",
+					"item": [
+						{
+							"name": "image_type  get all",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/image_type/list",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"image_type",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "image_type get single list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/image_type/listone/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"image_type",
+										"listone",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "image_type  delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/image_type/delete/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"image_type",
+										"delete",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "image_type  update data",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/image_type/update/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"image_type",
+										"update",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "image_type  add",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/image_type/add",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"image_type",
+										"add"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "project_status",
+					"item": [
+						{
+							"name": "project_status  get all",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/project_status/list",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"project_status",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "project_status get single list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/image_type/listone/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"image_type",
+										"listone",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "project_status  delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/image_type/delete/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"image_type",
+										"delete",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "project_status  update data",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/image_type/update/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"image_type",
+										"update",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "project_status  add",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"status_name\": \"draft\"\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/project_status/add",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"project_status",
+										"add"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "creator_category",
+					"item": [
+						{
+							"name": "creator_category  get all",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/creator_category/list",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"creator_category",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "creator_category get single list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/creator_category/listone/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"creator_category",
+										"listone",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "creator_category delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/creator_category/delete/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"creator_category",
+										"delete",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "creator_category update data",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " {\r\n    \"order_type_id\":1,\r\n    \"description\": \"Blogs/Articles\",\r\n    \"status\": 1,\r\n    \"created_by\":0,\r\n    \"updated_by\":0\r\n  }\r\n  ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/creator_category/update/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"creator_category",
+										"update",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "creator_category add",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": " { \"category_name\":\"Generic\"\r\n }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/category/creator_category/add",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"creator_category",
+										"add"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
